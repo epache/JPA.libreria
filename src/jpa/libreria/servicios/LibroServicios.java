@@ -71,7 +71,8 @@ public class LibroServicios {
         imprimirLibros();
         Long isbn = read.nextLong();
         DAO.eliminar(isbn);
-        System.out.println("La nueva lista de libros es:");        
+        System.out.println("La nueva lista de libros es:"); 
+        System.out.println("PACHE TE AMOOOOOOOOOOOOO ");
         imprimirLibros();
     }
 
